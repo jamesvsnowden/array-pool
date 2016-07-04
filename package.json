@@ -1,0 +1,32 @@
+{
+  "name": "array-pool",
+  "version": "0.1.0",
+  "description": "Javascript array pooling",
+  "main": "dist/array-pool.cjs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/index.js",
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesvsnowden/array-pool.git"
+  },
+  "keywords": [
+    "array",
+    "pool"
+  ],
+  "author": "James V. Snowden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesvsnowden/array-pool/issues"
+  },
+  "homepage": "https://github.com/jamesvsnowden/array-pool#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "strip-comments": "^0.4.4"
+  }
+}
